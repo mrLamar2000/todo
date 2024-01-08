@@ -1,0 +1,44 @@
+{
+  "date": [
+    {
+      "id": "1",
+      "avatar": "img/image1.jpeg",
+      "name": "John Smith",
+      "tell": "4357589775",
+      "email": "john@gamiliar.com",
+      "city": "Dushanbe",
+      "phone": "12347757557",
+      "status": false
+    },
+    {
+      "id": "2",
+      "avatar": "img/image2.jpeg",
+      "name": "Arnold Swarthneger",
+      "tell": "4357589775",
+      "email": "john@gamiliar.com",
+      "city": "Khujand",
+      "phone": "12347757557",
+      "status": false
+    },
+    {
+      "id": "3",
+      "avatar": "img/image3.jpeg",
+      "name": "Gojo Satoru",
+      "tell": "4357589775",
+      "email": "john@gmail.com",
+      "city": "Bokhtar",
+      "phone": "12347757557",
+      "status": false
+    },
+    {
+      "id": "4",
+      "avatar": "img/image4.jpeg",
+      "name": "Naruto Uzumaki",
+      "tell": "4357589775",
+      "email": "john@gamiliar.com",
+      "city": "Dushanbe",
+      "phone": "12347757557",
+      "status": false
+    }
+  ]
+}

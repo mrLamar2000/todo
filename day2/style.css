@@ -1,0 +1,513 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  /* overflow-x: hidden; */
+}
+.navbar {
+  height: 10vh;
+  display: flex;
+  padding: 0 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  width: 30%;
+}
+.left h1 {
+  font-size: 35px;
+  font-weight: 400;
+}
+.right {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.butAdd {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  color: white;
+  background-color: blue;
+}
+.Light {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  /* color: whi; */
+  background-color: grey;
+}
+.Dark {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  color: grey;
+  border: 1px solid black;
+  background-color: white;
+}
+.div1 {
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+.left1 {
+  width: 50%;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 30px;
+}
+select {
+  width: 40%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  border: 1px solid grey;
+  /* color: white; */
+  /* background-color: blue; */
+}
+.rigth1 {
+  width: 30%;
+}
+.rigth1 input {
+  width: 250px;
+  height: 50px;
+  border-radius: 6px;
+  border: 1px solid black;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.dib {
+  height: 50px;
+  display: flex;
+}
+.container {
+  width: 70%;
+  margin: auto;
+  background-color: green;
+}
+.conteiner2{
+  width: 20%;
+  display: flex;
+}
+.div2 {
+  width: 20%;
+}
+.div3 {
+  width: 20%;
+}
+.table{
+  width: 85%;
+  margin: 0 100px;
+}
+th{
+  width: 20%;
+  height: 40px;
+  background-color: green;
+}
+.td{
+  width: 20%;
+  height: 70px;
+  /* border: 1px solid black; */
+  border-bottom: 2px solid grey;
+
+}
+.td1{
+  width: 20%;
+  height: 70px;
+  /* border: 1px solid black; */
+  padding-left: 10px;
+  border-bottom: 2px solid grey;
+}
+
+.td2{
+  width: 20%;
+  height: 70px;
+  border-bottom: 2px solid grey;
+}
+.mant{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.td3{
+  width: 20%;
+  height: 70px;
+  /* border: 1px solid black; */
+  border-bottom: 2px solid grey;
+
+}
+.td4{
+  width: 20%;
+  height: 70px;
+  /* border: 1px solid black; */
+  border-bottom: 2px solid grey;
+
+}
+.div{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.icon{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+.active{
+  font-size: 20px;
+  font-weight: 400;
+  background-color:  red;
+  display: inline;
+  padding: 5px 10px;
+  color: white;
+  margin-left: 10px;
+}
+.conteiner{
+  border-bottom: 5px solid black;
+  padding: 10px 0;
+}
+.share{
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+}
+.dialog{
+  width: 500px;
+  height: 500px;
+  background-color: grey;
+  margin-left: 500px;
+  margin-top: 100px;
+}
+.inpImage{
+  width: 70%;
+  margin: 0 15%;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid grey;
+  color: grey;
+  font-size: 20px;
+  padding-left: 5px;
+  margin-top: 50px;
+}
+.inpTitle{
+  width: 70%;
+  margin: 0 15%;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid grey;
+  color: grey;
+  font-size: 20px;
+  padding-left: 5px;
+  margin-top: 10px;
+}
+.inpEmail{
+  width: 70%;
+  margin: 0 15%;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid grey;
+  color: grey;
+  font-size: 20px;
+  padding-left: 5px;
+  margin-top: 10px;
+}
+.inpCity{
+  width: 70%;
+  margin: 0 15%;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid grey;
+  color: grey;
+  font-size: 20px;
+  padding-left: 5px;
+  margin-top: 10px;
+}
+.inpPhone{
+  width: 70%;
+  margin: 0 15%;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid grey;
+  color: grey;
+  font-size: 20px;
+  padding-left: 5px;
+  margin-top: 10px;
+}
+.ButAdd{
+  width: 130px;
+  height: 40px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.ButCancel{
+  width: 130px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.dialog2{
+  width: 200px;
+  height: 215px;
+  margin-left: 950px;
+  margin-top: 200px;
+}
+.prof{
+  width: 80%;
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.edit{
+  width: 80%;
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-between;
+}.dell{
+  width: 80%;
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.compl{
+  width: 80%;
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.compl h1{
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.checkCompl{
+  zoom: 1.5;
+  accent-color: rgb(0, 191, 255)
+;
+}
+.dell h1{
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.edit h1{
+  font-size: 22px;
+  margin-top: 10px;
+}
+.prof h1{
+  font-size: 22px;
+  margin-top: 10px;
+}
+.cancel3{
+  width: 100px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+}
+.icondell{
+  width: 30px;
+  height: 30px;
+} 
+.iconedit{
+  width: 30px;
+  height: 30px;
+} 
+.iconprof{
+  width: 30px;
+  height: 30px;
+} 
+.dialogprof{
+  width: 500px;
+  height: 90vh;
+  margin-left: 820px;
+}
+.dib1{
+  height:60px;
+  display: flex;
+  padding: 0 30px;
+  justify-content: space-between;
+  align-items: center;
+    border-bottom: 3px solid grey;
+
+}
+.dib2{
+  height: 300px;
+  border-bottom: 3px solid grey;
+}
+.dib2 img{
+  width: 40%;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+.dib2 h1{
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 190px;
+} 
+.dib2 p{
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 160px;
+} 
+.dib3{
+  height: 200px;
+  border-bottom: 3px solid grey;
+}
+.dif{
+  display: flex;justify-content: space-between;align-items: center;
+  margin: 0 30px;
+}
+.dif h1{
+  font-size: 22px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.dif1{
+  display: flex;justify-content: space-between;align-items: center;
+  margin: 0 30px;
+  margin-top: 40px;
+}
+.dif1 h1{
+  font-size: 22px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.ht{
+  background-color: red;
+  color: white;
+  padding: 5px;
+}
+.dib4{
+  height: 80px;
+}
+.butEdit{
+  width: 120px;
+  height: 40px;
+  background-color: rgb(6, 174, 241);
+  color: white;
+  font-size: 20px;
+  display: block;
+  margin: auto;
+  margin: 20px 180px;
+}
+.ButX{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+.dialogEdit{
+  width: 500px;
+  height: 500px;
+  background-color: grey;
+  margin-left: 500px;
+  margin-top: 100px;
+}
+.editImage{
+  width: 70%;
+  margin: 0 15%;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid grey;
+  color: grey;
+  font-size: 20px;
+  padding-left: 5px;
+  margin-top: 50px;
+}
+.editTitle{
+  width: 70%;
+  margin: 0 15%;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid grey;
+  color: grey;
+  font-size: 20px;
+  padding-left: 5px;
+  margin-top: 10px;
+}
+.editEmail{
+  width: 70%;
+  margin: 0 15%;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid grey;
+  color: grey;
+  font-size: 20px;
+  padding-left: 5px;
+  margin-top: 10px;
+}
+.editCity{
+  width: 70%;
+  margin: 0 15%;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid grey;
+  color: grey;
+  font-size: 20px;
+  padding-left: 5px;
+  margin-top: 10px;
+}
+.editPhone{
+  width: 70%;
+  margin: 0 15%;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid grey;
+  color: grey;
+  font-size: 20px;
+  padding-left: 5px;
+  margin-top: 10px;
+}
+.butedit{
+  width: 130px;
+  height: 40px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.butCanceledit{
+  width: 130px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  font-size: 20px;
+  margin-top: 10px;
+}

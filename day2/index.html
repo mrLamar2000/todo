@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="left">
+        <h1>User List</h1>
+      </div>
+      <div class="right">
+        <button class="butAdd">New</button>
+        <button class="Light">Light</button>
+        <button class="Dark">Dark</button>
+      </div>
+    </div>
+    <div class="div1">
+      <div class="left1">
+        <select class="select1" name="" id="">
+          <optgroup label="Status">
+            <option value=""></option>
+          <option value="true">true</option>
+          <option value="false">false</option>
+          </optgroup>
+        </select>
+        <select class="select2" name="" id="">
+          <optgroup label="Citys">
+          <option value=""></option>
+          <option value="Dushanbe">Dushanbe</option>
+          <option value="Bokhtar">Bokhtar</option>
+          <option value="Khujand">Khujand</option>
+          </optgroup>
+        </select>
+      </div>
+      <div class="rigth1">
+        <input placeholder="Searche" type="text" class="search" />
+      </div>
+    </div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody class="box"></tbody>
+    </table>
+    <dialog class="dialog">
+      <input placeholder="Add Image" class="inpImage" type="text" />
+      <input placeholder="Add Title" class="inpTitle" type="text" />
+      <input placeholder="Add Email" class="inpEmail" type="text" />
+      <input placeholder="Add City" class="inpCity" type="text" />
+      <input placeholder="Add Phone" class="inpPhone" type="text" />
+      <button class="ButAdd">Add</button>
+      <button class="ButCancel">Cancel</button>
+    </dialog>
+    <dialog class="dialog2">
+        <div class="prof">
+            <h1>Profile</h1>
+            <img class="iconprof" src="/img/prof.jpeg" alt="">
+        </div>
+        <div class="edit">
+            <h1>Edit</h1>
+            <img class="iconedit" src="/img/edit.jpeg" alt="">
+        </div>
+        <div class="dell">
+            <h1 style="color: red;">Delete</h1>
+            <img class="icondell" src="/img/dell.jpeg" alt="">
+        </div>
+        <div class="compl">
+            <h1>Completed</h1>
+            <input class="checkCompl" type="checkbox">
+        </div>
+        <button class="cancel3">Cancel</button>
+    </dialog>
+    <dialog class="dialogprof">
+        <div class="dib1">
+            <button class="ButX">X</button>
+            <h1>user info</h1>
+        </div>
+        <div class="dib2">
+            <img src="/img/image1.jpeg" alt="">
+            <h1>John Smith</h1>
+            <p>john@gamiliar.com</p>
+        </div>
+        <div class="dib3">
+           <div class="dif1">
+            <h1>City</h1>
+            <h1>Dushanbe</h1>
+           </div>
+           <div class="dif">
+            <h1>Status</h1>
+            <h1 class="ht">Inactive</h1>
+           </div>
+           <div class="dif">
+            <h1>Phone</h1>
+            <h1>888880090</h1>
+           </div>
+        </div>
+        <div class="dib4">
+            <button class="butEdit">Edit</button>
+        </div>
+    </dialog>
+    <dialog class="dialogEdit">
+      <input placeholder="Add Image" class="editImage" type="text" />
+      <input placeholder="Add Title" class="editTitle" type="text" />
+      <input placeholder="Add Email" class="editEmail" type="text" />
+      <input placeholder="Add City" class="editCity" type="text" />
+      <input placeholder="Add Phone" class="editPhone" type="text" />
+      <button class="butedit">Edit</button>
+      <button class="butCanceledit">Cancel</button>
+    </dialog>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+.right{
+    width: 30%;
+    display: flex;
+    gap: 30px;
+}
+.But1{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+.left{
+    width: 30%;
+}
+.left h1{
+    font-size: 35px;
+    font-weight: 400;
+}
+.But2{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(192, 188, 188);
+    cursor: pointer;
+    color: black;
+    border: 1px solid black;
+    font-size: 20px;
+}
+.But3{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    color: grey;
+    border: 1px solid black;
+    font-size: 20px;
+}
+.div1{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+.select{
+    width: 270px;
+    height: 60px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: white;
+    outline: none;
+}
+.select2{
+    width: 270px;
+    height: 60px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    outline: none;
+}
+.inpSearch{
+    width: 270px;
+    height: 60px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: white;
+    padding-left: 10px;
+    outline: none;
+}
+.table{
+    margin: 0 100px;
+    background-color: whitesmoke;
+    height:auto;
+    display: block;
+    border-radius: 10px;
+    /* width: 80%; */
+    /* margin: auto; */
+}
+.td1{
+    /* width: 30%; */
+    height: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.td{
+    width: 22%;
+    height: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.td4{
+    width: 10%;
+    height: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+th{
+    width: 20%;
+    height: 50px;
+    margin-top: 10px;
+    /* background-color: grey; */
+}
+.img1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.Dialog1{
+    width: 700px; 
+    height: 500px;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.Dialog1 h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+.inpimage{
+    width: 70%;
+    height: 40px;
+    border: 1px solid grey;
+    margin-left: 100px;
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+.inpTitle{
+    width: 70%;
+    height: 40px;
+    border: 1px solid grey;
+    margin-left: 100px;
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+.inpcitys{
+    width: 70%;
+    height: 40px;
+    border: 1px solid grey;
+    margin-left: 100px;
+    /* display: block; */
+    margin-top: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+.inpEmail{
+    width: 70%;
+    height: 40px;
+    border: 1px solid grey;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+.inpPhone{
+    width: 70%;
+    height: 40px;
+    border: 1px solid grey;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 20px;
+    display: block;
+    padding-left: 10px;
+}
+.Add{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+.Cancel{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Dialog2{
+    width: 200px;
+    height: 350px;
+    margin-left: 1300px;
+    margin-top: 200px;
+}
+.dib{
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+}
+.cancel1{
+    width: 100px;
+    height: 50px;
+    font-size: 40px;
+    background-color: red;
+    display: block;
+    margin-left: 40px;
+}
+.False{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: red;
+    display: block;
+    margin-left: 40px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 170px;
+
+}
+.Dialog3{
+    width: 700px; 
+    height: 500px;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.Dialog3 img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Dialog3 h1{
+    margin: auto;
+    text-align: center;
+    padding: 0 30px;
+}
+.Dialog3 p{
+    margin: auto;
+    text-align: center;
+    padding: 0 30px;
+    font-size: 23px;
+    color: grey;
+    padding-top: 20px;
+}

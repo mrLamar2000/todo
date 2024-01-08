@@ -1,0 +1,248 @@
+*{
+    margin: 0;padding: 0;font-family: sans-serif;
+}
+.div1{
+    display: flex;
+    height: 20vh;
+    justify-content: space-between;
+    padding: 0 100px;
+    align-items: center;
+}
+.left{
+    width: 20%;
+}
+.left button{
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.left h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+.center{
+    width: 20%;
+}
+.center select{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid grey;
+}
+.right{
+    width: 20%;
+}
+.right input{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid grey;
+    padding-left: 10px;
+    color: brown;
+}
+.table{
+    width: 70%;
+    margin: 0 15%;
+    height: 700px;
+    border: 1px solid blue;
+    margin-top: 50px;
+}
+.th{
+    width: 10%;
+    height: 70px;
+    border: 1px solid black;
+}
+.th1{
+    width: 25%;
+    height: 70px;
+    border: 1px solid black;
+}
+.th2{
+    width: 25%;
+    height: 70px;
+    border: 1px solid black;
+}
+.th3{
+    width: 5%;
+    height: 70px;
+    border: 1px solid black;
+}
+.th4{
+    width: 30%;
+    height: 70px;
+    border: 1px solid black;
+}
+.td{
+    width: 10%;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.td1{
+    width: 20%;
+    height: 30px;
+    border: 1px solid black;
+
+}
+.td2{
+    width: 20%;
+    height: 30px;
+    border: 1px solid black;
+
+}
+.td3{
+    width: 20%;
+    height: 30px;
+    border: 1px solid black;
+}
+.td4{
+    width: 20%;
+    border: 1px solid black;
+}
+.ht{
+    font-size: 20px;
+    background-color: grey;
+    padding: 10px ;
+    display: inline;
+    margin-left: 40px;
+    color: white;
+}
+.butDelete{
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    color: white;
+}
+.butEdit{
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    color: white;
+}
+.butShow{
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    color: white;
+}
+.compl{
+    zoom: 2;
+    accent-color: rgb(0, 208, 255);
+}
+.dialog{
+    width: 300px;
+    height: 300px;
+    background-color: grey;
+}
+.dialog3{
+    width: 300px;
+    height: 300px;
+    background-color: grey;
+}
+
+.dialog2{
+    width: 300px;
+    height: 300px;
+    background-color: grey;
+}
+.h1complName{
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    margin: 30px 0;
+}
+.h1complEmail{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin: 30px 0;
+}
+p{
+    text-align: center;
+}
+.inpName{
+    width: 70%;
+    margin: 0 15%;
+    height: 40px;
+    border: 1px solid black;
+    padding-left: 10px;
+    color: brown;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.inpEmail{
+    width: 70%;
+    margin: 0 15%;
+    height: 40px;
+    border: 1px solid black;
+    padding-left: 10px;
+    color: brown;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.butAdd{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.butX{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: brown;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.editName{
+    width: 70%;
+    margin: 0 15%;
+    height: 40px;
+    border: 1px solid black;
+    padding-left: 10px;
+    color: brown;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.editEmail{
+    width: 70%;
+    margin: 0 15%;
+    height: 40px;
+    border: 1px solid black;
+    padding-left: 10px;
+    color: brown;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.butedit{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.butXX{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: brown;
+    margin-top: 20px;
+    margin-left: 30px;
+}
